@@ -1,0 +1,32 @@
+{
+  "name": "pratice_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "backend for learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAHUL956777/pratice_backend.git"
+  },
+  "keywords": [
+    "backend",
+    "mongodb",
+    "mongoose",
+    "nodejs",
+    "express",
+    "apis"
+  ],
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAHUL956777/pratice_backend/issues"
+  },
+  "homepage": "https://github.com/RAHUL956777/pratice_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
