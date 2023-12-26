@@ -259,7 +259,7 @@ const updateAccountDetails = asyncHandler(async (req, res) => {
     throw new ApiError(400, "Full name or email is required");
   }
 
-  User.findByIdAndUpdate(
+  await User.findByIdAndUpdate(
     req.user?._id,
     {
       $set: {
@@ -336,6 +336,7 @@ export {
   refreshAccessToken,
   changeCurrentPassword,
   getCurrentUser,
+  updateAccountDetails,
   updateUserAvatar,
   updateUserCoverImage,
 };
